@@ -136,22 +136,22 @@ video {
 #logo {
   width: 69px;
   height: auto;
-  right: 13.7px;
+  right: 218.7px;
   top: 195px;
   position: absolute;
   z-index: 11;
 }
 
 #cta {
-  width: 86px;
-  height: 23px;
-  bottom: 32px;
-  left: 195px;
+  width: 84.3px;
+  height: 22.83px;
+  bottom: 33px;
+  left: 194px;
   background-color: #fff;
   border-radius: 4px;
   font-family: "ESKlarheitGrotesk Smbd";
   color: #0000aa;
-  font-size: 9.3px;
+  font-size: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,14 +162,14 @@ video {
   font-size: 7.5px;
   line-height: 7px;
   letter-spacing: -0.02em;
-  left: 15px;
+  left: 13px;
   width: 250px;
   bottom: 17px;
   z-index: 11;
 }
 #term2 {
   top: 232px;
-  left: 15px;
+  left: 13px;
   font-size: 7.5px;
 }
 #term2 sup{

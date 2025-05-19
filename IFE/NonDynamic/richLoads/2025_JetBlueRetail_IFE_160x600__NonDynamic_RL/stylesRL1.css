@@ -110,7 +110,7 @@ video {
 }
 #endframeBg {
   position: absolute;
-  top: 461px;
+  top: 451px;
   height: 600px;
   width: 100%;
   background: #FFFFFF;
@@ -127,16 +127,17 @@ video {
 #blueBottomCard {
   background-color: #0000aa;
   width: 160px;
-  height: 129px;
+  height: 140px;
   left: 0px;
   bottom: 0;
 }
 
+
 #logo {
-  width: 95px;
+  width: 80px;
   height: auto;
-  left: 33px;
-  bottom: 60px;
+  left: 39px;
+  bottom: 97px;
   position: absolute;
   z-index: 11;
 }
