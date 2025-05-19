@@ -21,7 +21,7 @@ video {
 #main_container {
   position: absolute;
   background-color: #00e1ff;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
