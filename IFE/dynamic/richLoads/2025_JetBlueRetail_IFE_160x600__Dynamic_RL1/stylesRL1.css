@@ -81,22 +81,32 @@ video {
 #text_holder {
   color: #0000aa;
   font-family: "ESKlarheitGrotesk Xbd";
-  font-size: 23px;
-  line-height: 26px;
+  font-size: 27.2px;
+  line-height: 27.5px;
   letter-spacing: -1px;
 }
 #h1,
 #h2{
   width: 160px;
   left: 8px;
-  top: 132px;
+  top: 86px;
 }
 #h2{
-  top: 93px;
+  top: 75px;
   font-size: 23px;
   line-height: 25.9px;
-  letter-spacing: -0.7px;
-  left: 10px;
+  letter-spacing: -0.8px;
+  left: 8px;
+}
+#h2 sup{
+  font-size: 9px;
+  line-height: 1;
+  vertical-align: super;
+  position: relative;
+  top: -2px;
+  left: -5px;
+  margin: 0;
+  display: inline;
 }
 #endframeBg {
   position: absolute;
@@ -155,6 +165,21 @@ video {
   width: 150px;
   bottom: 23px;
   z-index: 11;
+}
+#term2 {
+  top: 574px;
+  left: 9px;
+  font-size: 6.4px;
+}
+#term2 sup{
+  font-size: 7px;
+  line-height: 1;
+  vertical-align: super;
+  position: relative;
+  top: 3px;
+  left: 0px;
+  margin: 0;
+  display: inline;
 }
 .window{
   width: 160px;

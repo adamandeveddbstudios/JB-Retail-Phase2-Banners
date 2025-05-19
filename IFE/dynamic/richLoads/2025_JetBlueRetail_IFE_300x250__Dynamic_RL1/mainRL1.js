@@ -98,6 +98,7 @@ function init() {
 }
 
 function animate() {
+  window.parent.document.getElementById("border").style.borderColor="#000"
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
 
   tl.set(['#h1, #h2'], {y:"20px"})
