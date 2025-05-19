@@ -5,8 +5,8 @@ FT.manifest({
 	"clickTagCount": 3,
 	"hideBrowsers": ["ie8"],
 	"richLoads": [
-		{"name": "RL1", "src": "2025_JetBlueRetail_Priority_468x60__Dynamic_RL1"},
-		{"name": "RL2", "src": "2025_JetBlueRetail_Priority_468x60__Dynamic_RL2"}
+		{"name": "RL1", "src": "2025_JetBlueRetail_IFE_468x60__Dynamic_RL1"},
+		{"name": "RL2", "src": "2025_JetBlueRetail_IFE_468x60__Dynamic_RL2"}
 	],
     "instantAds": [
 		{"name": "RL1", 						"type": "richLoad"},
