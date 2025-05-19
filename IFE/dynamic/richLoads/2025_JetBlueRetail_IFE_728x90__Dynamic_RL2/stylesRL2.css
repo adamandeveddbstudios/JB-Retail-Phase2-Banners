@@ -322,7 +322,7 @@ video {
   line-height: 25px!important;
   letter-spacing: -1px!important;
   color: #0000aa !important;
-  margin-top: 16px;
+  margin-top: -6px;
 }
 
 .defaultEndframe > .asterisk {

@@ -94,7 +94,7 @@ function setupContent() {
     // -------------------
 
     if (showDefault) {
-      h4[0].innerHTML = 'More uptime, no upcharge.'; // - Populates main headline
+      h4[0].innerHTML = 'You really can see<br>everything from<br>up here.'; // - Populates main headline
       h4[0].classList.add('defaultEndframe')
       // reposition CTA
       cta[0].style.marginLeft = 0 
