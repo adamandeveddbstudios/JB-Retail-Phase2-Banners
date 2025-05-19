@@ -116,7 +116,7 @@ video {
   height: 90px;
   width: 100%;
   background: #FFFFFF;
-  left: 562px;
+  left: 504px;
 }
 
 #pinkRibbon {
@@ -131,25 +131,26 @@ video {
 
 #blueBottomCard {
   background-color: #0000aa;
-  width: 162px;
+  width: 215px;
   height: 90px;
   right: 0px;
   bottom: 0px;
 }
 
 #logo {
-  width: 98px;
+  width: 73px;
   height: auto;
-  right: 15px;
-  top: 29px;
+  right: 123px;
+  top: 33px;
   position: absolute;
   z-index: 11;
 }
+
 #cta {
   width: 85px;
   height: 22.99px;
   bottom: 34px;
-  left: 626px;
+  left: 625px;
   background-color: #fff;
   border-radius: 4px;
   font-family: "ESKlarheitGrotesk Smbd";
