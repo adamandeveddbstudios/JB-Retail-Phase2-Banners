@@ -86,28 +86,29 @@ function init() {
 }
 
 function animate() {
-  //make parent (base file) border black
   window.parent.document.getElementById("border").style.borderColor="#000"
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
 
   tl.set(['#h1, #h2'], {y:"20px"})
-  tl.set('#seats', {y:"100%"})
   
   tl.addLabel('frame1', 0)
   .to('#h1', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut}, 'frame1+=0.5')
-  .to('#seats', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut}, '<')
 
   .addLabel('frame2', 'frame1+=4')
   .to('#h1', 0.5, { autoAlpha: 0, y: "20px", ease: Power1.easeOut }, "frame2")
-  .to(['#h2, #term2'], 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut }, "frame2+=0.5")
+  .to('#h2', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut }, "frame2+=0.5")
 
   .addLabel('frame_END', "frame2+=6")
   .to("#term2", {autoAlpha: 0,}, 'frame_END')
   .to('#endframeBg', 0.6 ,{ left: 0, ease: Back.easeOut.config(.3)}, 'frame_END')
-  //////////////////////////////////////
-  // @FT2 code block start
+
+   const totalDuration = tl.duration() + 2;
+  tl.fromTo("#clouds", totalDuration , { x: "250" }, { x: "320", ease: Power0.easeNone }, 0)
+
+  ////////////////////////////////////////
+  //@FT2 code block start
   .call(playEndframe, ["param1"], 'frame_END')
-  // @FT2 code block end
+  //@FT2 code block end
   ////////////////////////////////////////
 }
 ////////////////////////////////////////

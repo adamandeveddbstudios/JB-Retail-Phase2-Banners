@@ -79,32 +79,32 @@ video {
 /* Text */
 
 #text_holder {
-  color: #0000aa;
+  color: #fff; 
   font-family: "ESKlarheitGrotesk Xbd";
-  font-size: 27.2px;
-  line-height: 27.5px;
+  font-size: 31.9px;
+  line-height: 35px;
   letter-spacing: -1px;
 }
 #h1,
 #h2{
   width: 160px;
-  left: 8px;
-  top: 86px;
+  left: 10px;
+  top: 108px;
 }
 #h2{
-  top: 75px;
+  top: 79px;
   font-size: 23px;
-  line-height: 25.9px;
+  line-height: 24.9px;
   letter-spacing: -0.8px;
-  left: 8px;
+  left: 9px;
 }
-#h2 sup{
+#h1 sup{
   font-size: 9px;
   line-height: 1;
   vertical-align: super;
   position: relative;
-  top: -2px;
-  left: -5px;
+  top: -5px;
+  left: -6px;
   margin: 0;
   display: inline;
 }
@@ -121,7 +121,7 @@ video {
   top: 0px;
   height: 10px;
   width: 100%;
-  background: #f2653a;
+  background: #00dcaa;
 }
 
 #blueBottomCard {
@@ -184,4 +184,9 @@ video {
 .window{
   width: 160px;
   height: 600px;
+}
+.clouds{
+  height: 22px;
+  object-fit: contain;
+  top: 355px;
 }

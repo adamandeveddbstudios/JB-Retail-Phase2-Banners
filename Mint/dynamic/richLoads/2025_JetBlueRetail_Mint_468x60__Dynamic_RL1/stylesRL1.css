@@ -79,34 +79,31 @@ video {
 /* Text */
 
 #text_holder {
-  color: #0000aa;
+  color: #fff;
   font-family: "ESKlarheitGrotesk Xbd";
-  font-size: 15.8px;
-  line-height: 15.9px;
+  font-size: 21.7px;
+  line-height: 21.5px;
   letter-spacing: -1px;
 }
 #h1,
 #h2{
   width: 460px;
   left: 19px;
-  top: 5px;
+  top: 8px;
 }
 #h2{
-  top: 6px;
-  font-size: 10.7px;
-  line-height: 13.4px;
+  top: 9px;
+  font-size: 11.8px;
+  line-height: 14.5px;
   letter-spacing: 0.1px;
 }
-#h2 span {
-  letter-spacing: -0.2px;
-}
-#h2 sup{
+#h1 sup{
   font-size: 6px;
   line-height: 1;
   vertical-align: super;
   position: relative;
-  top: 0px;
-  left: -2.8px;
+  top: -4px;
+  left: -4.8px;
   margin: 0;
   display: inline;
 }
@@ -124,7 +121,7 @@ video {
   top: 0;
   height: 100%;
   width: 5px;
-  background: #f2653a;
+  background: #00dcaa;
   z-index: 1;
   left: 0px;
 }
@@ -191,4 +188,9 @@ video {
 .window{
   width: 468px;
   height: 60px;
+}
+.clouds{
+  height: 12px;
+  object-fit: contain;
+  top: 12px;
 }
