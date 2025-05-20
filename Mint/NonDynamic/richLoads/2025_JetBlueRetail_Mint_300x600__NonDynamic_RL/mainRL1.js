@@ -34,7 +34,7 @@ function animate() {
   .to('#h2', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut }, "frame2+=0.5")
 
    const totalDuration = tl.duration() + 2;
-  tl.fromTo("#clouds", totalDuration , { x: "50" }, { x: "140", ease: Power0.easeNone }, 0)
+  tl.fromTo("#clouds", totalDuration , { x: "50" }, { x: "170", ease: Power0.easeNone }, 0)
 
 }
 
