@@ -105,7 +105,7 @@ video {
 
 #endframeBg {
   position: absolute;
-  top: 456px;
+  top: 455px;
   height: 600px;
   width: 100%;
   background: #FFFFFF;
@@ -122,7 +122,7 @@ video {
 #blueBottomCard {
   background-color: #0000aa;
   width: 300px;
-  height: 130px;
+  height: 131px;
   left: 0px;
   position: absolute;
   bottom: 0;
