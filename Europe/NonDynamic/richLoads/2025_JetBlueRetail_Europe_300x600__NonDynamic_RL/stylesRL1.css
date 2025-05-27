@@ -102,7 +102,10 @@ video {
   line-height: 38px;
   letter-spacing: -0.6px;
 }
-
+.lineBreak{
+  display: block;
+  margin-top: 20px;
+}
 #h3 {
   top: 219px;
   left: 27px;

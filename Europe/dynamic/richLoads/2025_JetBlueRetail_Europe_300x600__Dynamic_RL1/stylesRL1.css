@@ -111,7 +111,10 @@ video {
   letter-spacing: -0.6px;
   width: 250px;
 }
-
+.lineBreak{
+  display: block;
+  margin-top: 20px;
+}
 #endframeBg {
   position: absolute;
   top: 455px;

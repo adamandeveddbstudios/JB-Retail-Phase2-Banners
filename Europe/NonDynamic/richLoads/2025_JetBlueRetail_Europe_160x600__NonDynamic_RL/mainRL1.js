@@ -32,7 +32,7 @@ function animate() {
 
   .addLabel('frame2', 'frame1+=4')
   .to('#h1', 0.5, { autoAlpha: 0, y: "20px", ease: Power1.easeOut }, "frame2")
-  .to('#h2,#h3', 0.5, { autoAlpha: 1, y: "-14px", ease: Power1.easeOut }, "frame2+=0.5")
+  .to('#h2', 0.5, { autoAlpha: 1, y: "-14px", ease: Power1.easeOut }, "frame2+=0.5")
 
 }
 
