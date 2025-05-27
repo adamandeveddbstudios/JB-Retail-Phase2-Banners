@@ -90,7 +90,7 @@ function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
 
   tl.set(['#h1, #h2'], {y:"20px"})
-  
+
   tl.addLabel('frame1', 0)
   .to('#h1', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut}, 'frame1+=0.5')
 

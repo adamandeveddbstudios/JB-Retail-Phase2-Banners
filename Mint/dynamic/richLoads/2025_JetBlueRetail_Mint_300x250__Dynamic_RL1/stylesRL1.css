@@ -5,6 +5,7 @@ body * {
   padding: 0;
   margin: 0;
 }
+
 img {
   border: 0;
 }
@@ -69,6 +70,7 @@ video {
   src: url("./fonts/ESKlarheitGrotesk-Smbd.woff");
   font-weight: normal;
 }
+
 @font-face {
   font-family: "ESKlarheitGrotesk Xbd";
   src: url("./fonts/ESKlarheitGrotesk-Xbd.woff");
@@ -85,20 +87,23 @@ video {
   line-height: 31.7px;
   letter-spacing: -0.1px;
 }
+
 #h1,
-#h2{
+#h2 {
   width: 280px;
   left: 14px;
   top: 14px;
 }
-#h2{
+
+#h2 {
   top: 19px;
   left: 12px;
-  font-size: 14px;
-  line-height: 18.6px;
+  font-size: 17px;
+  line-height: 19px;
   letter-spacing: 0.1px;
 }
-#h1 sup{
+
+#h1 sup {
   font-size: 7.5px;
   line-height: 1;
   vertical-align: super;
@@ -118,10 +123,10 @@ video {
 }
 
 #pinkRibbon {
-  position: relative; 
+  position: relative;
   top: 0px;
   height: 10px;
-  width: 100%; 
+  width: 100%;
   background: #00dcaa;
 }
 
@@ -156,7 +161,8 @@ video {
   align-items: center;
   justify-content: center;
 }
-.terms{
+
+.terms {
   color: #fff;
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 7.5px;
@@ -167,12 +173,14 @@ video {
   bottom: 17px;
   z-index: 11;
 }
+
 #term2 {
   top: 232px;
   left: 15px;
   font-size: 7.5px;
 }
-#term2 sup{
+
+#term2 sup {
   font-size: 7px;
   line-height: 1;
   vertical-align: super;
@@ -182,11 +190,13 @@ video {
   margin: 0;
   display: inline;
 }
-.window{
+
+.window {
   width: 300px;
   height: 250px;
 }
-.clouds{
+
+.clouds {
   height: 35px;
   object-fit: contain;
   top: 35px;

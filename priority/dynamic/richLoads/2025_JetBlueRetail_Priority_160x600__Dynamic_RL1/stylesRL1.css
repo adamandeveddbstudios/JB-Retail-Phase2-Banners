@@ -89,14 +89,18 @@ video {
 #h2{
   width: 160px;
   left: 8px;
-  top: 132px;
+  top: 112px;
 }
 #h2{
-  top: 93px;
+  top: 83px;
   font-size: 23px;
   line-height: 25.9px;
   letter-spacing: -0.7px;
   left: 10px;
+}
+.lineBreak{
+  display: block;
+  margin-top: 20px;
 }
 #endframeBg {
   position: absolute;

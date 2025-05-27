@@ -45,7 +45,7 @@ myFT.on('instantads',function(){
     called 'theFeedLoaded'.
     */
     function feedLoaded(feedItems) {
-     
+
       if(!thisFeedLoaded){
         thisFeedLoaded=true;
         try {
@@ -89,7 +89,7 @@ function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
 
   tl.set(['#h1, #h2'], {y:"20px"})
-  
+
   tl.addLabel('frame1', 0)
   .to('#h1', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut}, 'frame1+=0.5')
 
@@ -101,7 +101,7 @@ function animate() {
   .to("#term2", {autoAlpha: 0,}, 'frame_END')
   .to('#endframeBg', 0.6 ,{ top: 0, ease: Back.easeOut.config(.3)}, 'frame_END')
 
-   const totalDuration = tl.duration() + 2;
+  const totalDuration = tl.duration() + 2;
   tl.fromTo("#clouds", totalDuration , { x: "50" }, { x: "190", ease: Power0.easeNone }, 0)
 
   ////////////////////////////////////////

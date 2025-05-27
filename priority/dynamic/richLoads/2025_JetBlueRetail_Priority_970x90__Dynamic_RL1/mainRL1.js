@@ -103,7 +103,7 @@ function animate() {
 
   const totalDuration = tl.duration();
   tl.fromTo("#cloud", totalDuration, { x: "50" }, { x: "0", ease: Power0.easeNone }, 0);
-  tl.fromTo("#plane", totalDuration, { x: "-20" }, { x: "0", ease: Power0.easeNone }, 0)
+  tl.fromTo("#plane", totalDuration, { x: "-8" }, { x: "0", ease: Power0.easeNone }, 0)
 
   //////////////////////////////////////
   // @FT2 code block start

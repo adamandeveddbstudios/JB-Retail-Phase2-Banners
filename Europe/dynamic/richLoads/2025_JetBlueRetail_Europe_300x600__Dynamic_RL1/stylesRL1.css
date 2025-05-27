@@ -103,6 +103,15 @@ video {
   letter-spacing: -0.6px;
 }
 
+#h3 {
+  top: 219px;
+  left: 27px;
+  font-size: 32.7px;
+  line-height: 38px;
+  letter-spacing: -0.6px;
+  width: 250px;
+}
+
 #endframeBg {
   position: absolute;
   top: 455px;
