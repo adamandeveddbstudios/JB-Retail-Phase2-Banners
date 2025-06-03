@@ -11,7 +11,7 @@ var tl;
 
 
 //@FT VARIABLE DECLARATIONS
-var deploy = true
+var deploy = true,
     showDefault=false,
     thisFeedLoaded=false,
     ctURL = "",
@@ -128,11 +128,11 @@ function setupContent() {
     // -------------------
 
     if (showDefault) {
-      h4[0].innerHTML = '(Sight)seeing is believing.'; // - Populates main headline
+      h4[0].innerHTML = '<span>Go with</span> jetBlue'; // - Populates main headline
       h4[0].classList.add('defaultEndframe')
       // reposition CTA
       cta[0].style.marginLeft = 0
-      cta[0].style.marginTop = "22px"
+      cta[0].style.marginTop = "0px"
       terms[0].innerHTML = '' // Populate Terms
 
       // Turn off Price holder etc.

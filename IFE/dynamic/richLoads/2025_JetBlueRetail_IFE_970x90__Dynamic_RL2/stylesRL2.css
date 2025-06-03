@@ -5,6 +5,7 @@ body * {
   padding: 0;
   margin: 0;
 }
+
 img {
   border: 0;
 }
@@ -100,7 +101,7 @@ video {
   align-items: center;
 }
 
-#text_holder > * {
+#text_holder>* {
   position: relative;
 }
 
@@ -115,27 +116,30 @@ video {
 }
 
 .blue {
-  color: #0000aa;;
+  color: #0000aa;
+  ;
 }
 
 .orange {
   color: #FF8300;
 }
 
-.city{
-/*  font-size: 11px;
+.city {
+  /*  font-size: 11px;
   line-height: 16px;*/
   font-family: "ESKlarheitGrotesk Xbd";
 }
-.to{
+
+.to {
   color: #fff;
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 12px;
   line-height: 16px;
-  color: #0000aa;;
+  color: #0000aa;
+  ;
 }
 
-#h4{
+#h4 {
   white-space: nowrap;
   font-family: "ESKlarheitGrotesk Smbd";
   letter-spacing: -0.414px;
@@ -163,14 +167,14 @@ video {
   letter-spacing: 0.2px;
 }
 
-#price{
+#price {
   margin-top: 5px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   position: relative;
-  font-family:  "ESKlarheitGrotesk Xbd";
+  font-family: "ESKlarheitGrotesk Xbd";
 }
 
 #price .dollar {
@@ -200,7 +204,7 @@ video {
 }
 
 #price .asterisk {
-  font-family:  "ESKlarheitGrotesk Smbd";
+  font-family: "ESKlarheitGrotesk Smbd";
   font-size: 8px;
   line-height: 3px;
   position: relative;
@@ -243,7 +247,8 @@ video {
   left: 16px;
   top: 78px;
   width: 300px;
-  color: #0000aa;;
+  color: #0000aa;
+  ;
 }
 
 #logo {
@@ -301,7 +306,7 @@ video {
 }
 
 
-.sm{
+.sm {
   font-size: 15px;
   line-height: 20px;
   letter-spacing: .8px;
@@ -311,20 +316,27 @@ video {
 #bgPanel {
   top: 0px;
   left: 0px;
-/*  z-index: 150;*/
+  /*  z-index: 150;*/
 }
-
 
 .defaultEndframe {
   font-family: "ESKlarheitGrotesk Xbd" !important;
-  font-size: 25px!important;
-  line-height: 25px!important;
-  letter-spacing: -1px!important;
+  font-size: 36px !important;
+  line-height: 0px !important;
+  letter-spacing: -0.414px !important;
   color: #0000aa !important;
-  margin-top: 5px;
 }
 
-.defaultEndframe > .asterisk {
+.defaultEndframe span {
+  font-family: "ESKlarheitGrotesk Smbd" !important;
+  font-size: 31px !important;
+  line-height: 63px !important;
+  letter-spacing: -0.414px !important;
+  color: #0000aa !important;
+  margin-left: 36px;
+}
+
+.defaultEndframe>.asterisk {
   font-size: 11px !important;
   line-height: 13px !important;
   top: -7px !important;

@@ -5,6 +5,7 @@ body * {
   padding: 0;
   margin: 0;
 }
+
 img {
   border: 0;
 }
@@ -88,7 +89,8 @@ video {
 }*/
 
 #text_holder {
-  color: #0000aa;;
+  color: #0000aa;
+  ;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -98,27 +100,29 @@ video {
   width: 260px;
 }
 
-#text_holder > * {
+#text_holder>* {
   position: relative;
 }
 
 .blue {
-  color: #0000aa;;
+  color: #0000aa;
+  ;
 }
 
 .orange {
   color: #FF8300;
 }
 
-.city{
+.city {
   font-family: "ESKlarheitGrotesk Xbd";
 }
 
-.to{
+.to {
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 20px;
 }
-.startingAt{
+
+.startingAt {
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 20px;
   top: -9px;
@@ -130,11 +134,12 @@ video {
   font-size: 7px;
 }
 
-#h3{
+#h3 {
   top: 113px;
   width: 110px;
 }
-#h4{
+
+#h4 {
   font-family: "ESKlarheitGrotesk Smbd";
   color: #0000aa;
   font-size: 22.5px;
@@ -152,7 +157,7 @@ video {
   margin-bottom: 94px;
 }
 
-#starting_at{
+#starting_at {
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 21px;
   line-height: 1.08;
@@ -160,7 +165,7 @@ video {
 }
 
 
-#one_way{
+#one_way {
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 18px;
   line-height: 1.03;
@@ -169,7 +174,7 @@ video {
   color: #0000aa;
 }
 
-#price{
+#price {
   font-family: "ESKlarheitGrotesk Xbd";
   position: relative;
   display: flex;
@@ -208,7 +213,7 @@ video {
   color: #0000aa;
 }
 
- .one_way {
+.one_way {
   margin-left: 5px;
   margin-top: 40px;
   font-size: 14px;
@@ -275,7 +280,7 @@ video {
 
 #bgPanel {
   top: 0px;
-/*  z-index: 150;*/
+  /*  z-index: 150;*/
 }
 
 
@@ -296,7 +301,7 @@ video {
   border: 0;
 }
 
-.sm{
+.sm {
   font-size: 20px;
   line-height: 1.08333;
   letter-spacing: .8px;
@@ -313,7 +318,7 @@ video {
 
 
 
-#partner_logo_container{
+#partner_logo_container {
   width: 0;
   height: 61px;
   z-index: 1501;
@@ -321,25 +326,30 @@ video {
   white-space: nowrap;
 }
 
-#partner_logo_img{
+#partner_logo_img {
   width: 140px;
   height: 61px;
   object-fit: contain;
   object-position: left;
 }
 
-
-
-
 .defaultEndframe {
   font-family: "ESKlarheitGrotesk Xbd" !important;
-  font-size: 46.5px!important;
-  line-height: 49px!important;
-  letter-spacing: -1px!important;
+  font-size: 52px !important;
+  line-height: 0px !important;
+  letter-spacing: -0.414px !important;
   color: #0000aa !important;
 }
 
-.defaultEndframe > .asterisk {
+.defaultEndframe span {
+  font-family: "ESKlarheitGrotesk Smbd" !important;
+  font-size: 43px !important;
+  line-height: 111px !important;
+  letter-spacing: -0.414px !important;
+  color: #0000aa !important;
+}
+
+.defaultEndframe>.asterisk {
   font-size: 11px !important;
   line-height: 13px !important;
   top: -7px !important;

@@ -5,6 +5,7 @@ body * {
   padding: 0;
   margin: 0;
 }
+
 img {
   border: 0;
 }
@@ -69,6 +70,7 @@ video {
   src: url("./fonts/ESKlarheitGrotesk-Smbd.woff");
   font-weight: normal;
 }
+
 @font-face {
   font-family: "ESKlarheitGrotesk Xbd";
   src: url("./fonts/ESKlarheitGrotesk-Xbd.woff");
@@ -85,18 +87,21 @@ video {
   line-height: 26px;
   letter-spacing: -0.6px;
 }
+
 #h1,
-#h2{
+#h2 {
   width: 400px;
   left: 28px;
   top: 18px;
 }
-#h2{
-  top: 18px;
+
+#h2 {
+  top: 23px;
   font-size: 18.7px;
-  line-height: 20.2px;
+  line-height: 22.2px;
   letter-spacing: -0.5px;
 }
+
 #endframeBg {
   position: absolute;
   top: 0px;
@@ -132,6 +137,7 @@ video {
   position: absolute;
   z-index: 11;
 }
+
 #cta {
   width: 85px;
   height: 22.99px;
@@ -146,7 +152,8 @@ video {
   align-items: center;
   justify-content: center;
 }
-.terms{
+
+.terms {
   color: #fff;
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 7.3px;
@@ -158,11 +165,13 @@ video {
   z-index: 11;
   text-align: right;
 }
+
 #term2 {
   bottom: 5.5px;
   font-size: 7px;
 }
-#term2 sup{
+
+#term2 sup {
   font-size: 5px;
   line-height: 1;
   vertical-align: super;
@@ -171,7 +180,8 @@ video {
   margin: 0;
   display: inline;
 }
-.window{
+
+.window {
   width: 728px;
   height: 90px;
   z-index: -1;

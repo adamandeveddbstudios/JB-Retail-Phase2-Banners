@@ -61,7 +61,7 @@ myFT.on('instantads',function(){
         var partner_logo_img = myFT.$("#partner_logo_img");
         partner_logo_img[0].src=partner_logo_src;
       }
-      
+
       if(!thisFeedLoaded){
         thisFeedLoaded=true;
         try {
@@ -101,11 +101,11 @@ function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
 
   tl.set(['#h1, #h2'], {y:"20px"})
-  
+
   tl.addLabel('frame1', 0)
   .to('#h1', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut}, 'frame1+=0.5')
 
-  .addLabel('frame2', 'frame1+=4')
+  .addLabel('frame2', 'frame1+=3')
   .to('#h1', 0.5, { autoAlpha: 0, y: "20px", ease: Power1.easeOut }, "frame2")
   .to('#h2', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut }, "frame2+=0.5")
 
@@ -114,9 +114,9 @@ function animate() {
   .to('#endframeBg', 0.6 ,{ top: 0, ease: Back.easeOut.config(.3)}, 'frame_END')
   .to('#terms1', 0.5, { autoAlpha: 0, ease: Power1.easeOut}, 'frame_END')
 
-  const totalDuration = tl.duration();
-  tl.fromTo("#cloud", totalDuration, { x: "30" }, { x: "0", ease: Power0.easeNone }, 0);
-  tl.fromTo("#plane", totalDuration, { x: "-100" }, { x: "0", ease: Power0.easeNone }, 0)
+  const totalDuration = tl.duration()
+  tl.fromTo("#cloud", 7, { x: "50" }, { x: "-30", ease: Power0.easeNone }, 0);
+  tl.fromTo("#plane", 7, { x: "-150" }, { x: "0", ease: Power0.easeNone }, 0)
 
   ////////////////////////////////////////
   //@FT2 code block start

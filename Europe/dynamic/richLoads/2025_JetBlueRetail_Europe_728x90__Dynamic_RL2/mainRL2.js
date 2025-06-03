@@ -94,11 +94,11 @@ function setupContent() {
     // -------------------
 
     if (showDefault) {
-      h4[0].innerHTML = 'More uptime, no upcharge.'; // - Populates main headline
+      h4[0].innerHTML = '<span>Go with</span> jetBlue'; // - Populates main headline
       h4[0].classList.add('defaultEndframe')
       // reposition CTA
       cta[0].style.marginLeft = 0
-      cta[0].style.marginTop = "-8px"
+      cta[0].style.marginTop = "-10px"
       terms[0].innerHTML = '' // Populate Terms
 
       // Turn off Price holder etc.

@@ -45,7 +45,7 @@ terms_txt       = myFT.instantAds.restrictions_text;
 headline1_txt   = myFT.instantAds.headline1_text + myFT.instantAds.headline2_text;
 
 function checkURL(u){
-  if (u.indexOf("http://")==0||u.indexOf("https://")==0) { 
+  if (u.indexOf("http://")==0||u.indexOf("https://")==0) {
     return true
   } else {
     return false
@@ -62,13 +62,13 @@ function setupContent() {
 
     oneWay[0].innerHTML = oneWay_txt; // - Populates the 'one-way' text
     terms[0].innerHTML = ''; // - Populates the 'Restrictions Apply.' text
-    
+
     const myCity = document.getElementsByClassName('city')
     myCity[0].style.fontSize = "19px"
     myCity[1].style.fontSize = "19px"
     priceText[0].innerHTML = "XXX";
 
-  } 
+  }
   else {
 
     oneWay[0].innerHTML = oneWay_txt; // - Populates the 'one-way' text
@@ -95,11 +95,11 @@ function setupContent() {
     // -------------------
 
     if (showDefault) {
-      h4[0].innerHTML = 'You really<br>can see<br>everything<br>from up<br>here.'; // - Populates main headline
+      h4[0].innerHTML = '<span>Go with</span> jetBlue'; // - Populates main headline
       h4[0].classList.add('defaultEndframe')
       // reposition CTA
-      cta[0].style.marginLeft = 0 
-      cta[0].style.marginTop = "-48px"
+      cta[0].style.marginLeft = 0
+      cta[0].style.marginTop = "14px"
       terms[0].innerHTML = '' // Populate Terms
 
       // Turn off Price holder etc.
@@ -107,7 +107,7 @@ function setupContent() {
       startingAt[0].style.display = 'none';
     } else {
       h4[0].innerHTML = "Fly from<br><span class='city'>" + origin_formatted + "</span> <span class='to'>to</span><br><span class='city'>" + destination_formatted + "</span>"; // - Populates main headline
-      
+
       // dynamic resize
       const myCity = document.getElementsByClassName('city')
 
@@ -129,14 +129,14 @@ function setupContent() {
       }
 
     }
-    
+
     // ----------
     // TESTING
     //hard code price for local testing
     //comment out before uploading
     // lowestfare_faredollaramount="4444"
     // -------------
-    
+
     // Alternate text style classes for 3 and 4 characters prices
     // e.g. $250 vs. $1000
     priceText[0].innerHTML = lowestfare_faredollaramount;

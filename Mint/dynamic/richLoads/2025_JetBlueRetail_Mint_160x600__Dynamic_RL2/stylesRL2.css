@@ -5,6 +5,7 @@ body * {
   padding: 0;
   margin: 0;
 }
+
 img {
   border: 0;
 }
@@ -102,7 +103,7 @@ video {
   width: 144px;
 }
 
-#text_holder > * {
+#text_holder>* {
   position: relative;
 }
 
@@ -114,17 +115,19 @@ video {
   color: #FF8300;
 }
 
-.city{
+.city {
   font-size: 23.6px;
   line-height: 25px;
   letter-spacing: -0.414px;
   font-family: "ESKlarheitGrotesk Xbd";
 }
-.to{
+
+.to {
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 14.5px;
 }
-.startingAt{
+
+.startingAt {
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 13px;
   position: relative;
@@ -133,11 +136,11 @@ video {
 }
 
 .asterisk {
-  font-family:  "ESKlarheitGrotesk Smbd";
+  font-family: "ESKlarheitGrotesk Smbd";
   font-size: 20px;
 }
 
-#h4{
+#h4 {
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 18.5px;
   line-height: 20px;
@@ -160,7 +163,7 @@ video {
   margin-top: 71px;
 }
 
-#starting_at{
+#starting_at {
   font-family: "ESKlarheitGrotesk Smbd";
   font-size: 14.5px;
   position: relative;
@@ -168,12 +171,12 @@ video {
   position: relative;
 }
 
-#price{
+#price {
   position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  font-family:  "ESKlarheitGrotesk Smbd";
+  font-family: "ESKlarheitGrotesk Smbd";
   letter-spacing: -0.414px;
   width: 140px;
   left: 0px;
@@ -194,34 +197,41 @@ video {
   position: relative;
   display: table;
 }
+
 .number_3_char {
-  top: 5px  !important;
+  top: 5px !important;
   font-size: 42px !important;
 }
-.dollar_3_char{
+
+.dollar_3_char {
   font-size: 23px !important;
 }
-.one_way_3_char{
-  left: 2px  !important;
-  top: 16px  !important;
-  font-size: 16px  !important;
-  line-height: 14px  !important;
+
+.one_way_3_char {
+  left: 2px !important;
+  top: 16px !important;
+  font-size: 16px !important;
+  line-height: 14px !important;
 }
-.one_way_4_char{
-  left: 2px  !important;
-  top: 16px  !important;
-  font-size: 14px  !important;
-  line-height: 12px  !important;
+
+.one_way_4_char {
+  left: 2px !important;
+  top: 16px !important;
+  font-size: 14px !important;
+  line-height: 12px !important;
 
 }
+
 .number_4_char {
-  top: 5px  !important;
+  top: 5px !important;
   font-size: 37px !important;
 }
-.dollar_4_char{
+
+.dollar_4_char {
   font-size: 21px !important;
 
 }
+
 #price .one_way {
   left: 0px;
   margin-top: 28px;
@@ -232,7 +242,7 @@ video {
 }
 
 #price .asterisk {
-  font-family:  "ESKlarheitGrotesk Smbd";
+  font-family: "ESKlarheitGrotesk Smbd";
   font-size: 12px;
   position: relative;
   top: -3px;
@@ -279,11 +289,13 @@ video {
   top: 578px;
   width: 158px;
 }
+
 .all-rights {
   position: absolute;
   left: 17px;
 }
-.asterisk{
+
+.asterisk {
   font-size: 7px;
 }
 
@@ -313,7 +325,7 @@ video {
 }
 
 
-.sm{
+.sm {
   font-size: 17.3px;
   line-height: 1.08333;
   letter-spacing: .2px;
@@ -322,18 +334,28 @@ video {
 
 #bgPanel {
   top: 0px;
-/*  z-index: 150;*/
+  /*  z-index: 150;*/
 }
 
 .defaultEndframe {
   font-family: "ESKlarheitGrotesk Xbd" !important;
-  font-size: 25px !important;
-  line-height: 28px !important;
+  font-size: 34px !important;
+  line-height: 40px !important;
+  letter-spacing: -0.414px !important;
+  color: #0000aa !important;
+  position: relative !important;
+  top: 77px !important;
+}
+
+.defaultEndframe span {
+  font-family: "ESKlarheitGrotesk Smbd" !important;
+  font-size: 28px !important;
+  line-height: 39px !important;
   letter-spacing: -0.414px !important;
   color: #0000aa !important;
 }
 
-.defaultEndframe > .asterisk {
+.defaultEndframe>.asterisk {
   font-size: 11px !important;
   line-height: 13px !important;
   top: -7px !important;

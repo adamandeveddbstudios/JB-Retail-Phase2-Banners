@@ -45,7 +45,7 @@ terms_txt       = myFT.instantAds.restrictions_text;
 headline1_txt   = myFT.instantAds.headline1_text + myFT.instantAds.headline2_text;
 
 function checkURL(u){
-  if (u.indexOf("http://")==0||u.indexOf("https://")==0) { 
+  if (u.indexOf("http://")==0||u.indexOf("https://")==0) {
     return true
   } else {
     return false
@@ -61,13 +61,13 @@ function setupContent() {
 
     oneWay[0].innerHTML = oneWay_txt; // - Populates the 'one-way' text
     terms[0].innerHTML = ''; // - Populates the 'Restrictions Apply.' text
-    
+
     const myCity = document.getElementsByClassName('city')
     myCity[0].style.fontSize = "19px"
     myCity[1].style.fontSize = "19px"
     priceText[0].innerHTML = "XXX";
 
-  } 
+  }
   else {
 
     oneWay[0].innerHTML = oneWay_txt; // - Populates the 'one-way' text
@@ -94,11 +94,11 @@ function setupContent() {
     // -------------------
 
     if (showDefault) {
-      h4[0].innerHTML = 'More uptime, no upcharge.'; // - Populates main headline
+      h4[0].innerHTML = '<span>Go with</span> jetBlue'; // - Populates main headline
       h4[0].classList.add('defaultEndframe')
       // reposition CTA
-      cta[0].style.marginLeft = 0 
-      cta[0].style.marginTop = "-8px"
+      cta[0].style.marginLeft = 0
+      cta[0].style.marginTop = "-10px"
       terms[0].innerHTML = '' // Populate Terms
 
       // Turn off Price holder etc.
@@ -106,7 +106,7 @@ function setupContent() {
       startingAt[0].style.display = 'none';
     } else {
       h4[0].innerHTML = "Fly from<br><span class='city'>" + origin_formatted + "</span><br><span class='to'>to</span> <span class='city'>" + destination_formatted + "</span>"; // - Populates main headline
-      
+
       // dynamic resize
       const myCity = document.getElementsByClassName('city')
 
@@ -128,14 +128,14 @@ function setupContent() {
       }
 
     }
-    
+
     // ----------
     // TESTING
     //hard code price for local testing
     //comment out before uploading
     // lowestfare_faredollaramount="4444"
     // -------------
-    
+
     // Alternate text style classes for 3 and 4 characters prices
     // e.g. $250 vs. $1000
     priceText[0].innerHTML = lowestfare_faredollaramount;
@@ -209,7 +209,7 @@ function animate() {
   .addLabel('frame_4')
   // .from(['#main_content'], .6, { y:"+=250", ease: Back.easeOut.config(.3)})
   .staggerTo(['#h4', '#priceHolder', '#cta', '#terms', '#terms_container'], 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, 0.3, 'frame_4')
-    
+
 }
 
 
