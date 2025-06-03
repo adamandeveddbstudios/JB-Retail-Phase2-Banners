@@ -94,16 +94,16 @@ function animate() {
   tl.addLabel('frame1', 0)
   .to('#h1', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut}, 'frame1+=0.5')
 
-  .addLabel('frame2', 'frame1+=3')
+  .addLabel('frame2', 'frame1+=4')
   .to('#h1', 0.5, { autoAlpha: 0, y: "20px", ease: Power1.easeOut }, "frame2")
   .to('#h2', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut }, "frame2+=0.5")
 
-  .addLabel('frame_END', "frame2+=4")
+  .addLabel('frame_END', "frame2+=5")
   .to('#endframeBg', 0.6 ,{ left: 0, ease: Back.easeOut.config(.3)}, 'frame_END')
 
   const totalDuration = tl.duration();
-  tl.fromTo("#cloud", 7, { x: "100" }, { x: "-50", ease: Power0.easeNone }, 0);
-  tl.fromTo("#plane", 7, { x: "-8" }, { x: "48", ease: Power0.easeNone }, 0)
+  tl.fromTo("#cloud", 9, { x: "100" }, { x: "-50", ease: Power0.easeNone }, 0);
+  tl.fromTo("#plane", 9, { x: "-8" }, { x: "48", ease: Power0.easeNone }, 0)
 
   //////////////////////////////////////
   // @FT2 code block start
