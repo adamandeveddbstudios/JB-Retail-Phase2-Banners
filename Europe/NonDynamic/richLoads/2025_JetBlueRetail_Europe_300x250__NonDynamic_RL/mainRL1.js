@@ -25,12 +25,12 @@ function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
 
   tl.set(['#h1, #h2'], {y:"20px"})
-  tl.set('#cloud', {y:"100px"})
+  tl.set('#cloud', {y:"0px"})
 
 
   tl.addLabel('frame1', 0)
   .to('#h1', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut}, 'frame1+=0.5')
-  .to('#cloud', 5, { y: "0", ease: Power1.easeOut}, 'frame1+=0.5')
+  // .to('#cloud', 5, { y: "0", ease: Power1.easeOut}, 'frame1+=0.5')
 
   .addLabel('frame2', 'frame1+=4')
   .to('#h1', 0.5, { autoAlpha: 0, y: "20px", ease: Power1.easeOut }, "frame2")

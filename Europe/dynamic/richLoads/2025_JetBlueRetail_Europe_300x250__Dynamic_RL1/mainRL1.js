@@ -94,7 +94,7 @@ function animate() {
 
   tl.addLabel('frame1', 0)
   .to('#h1', 0.5, { autoAlpha: 1, y: "0", ease: Power1.easeOut}, 'frame1+=0.5')
-  .to('#cloud', 5, { y: "-100", ease: Power1.easeOut}, 'frame1+=0.5')
+  // .to('#cloud', 5, { y: "-100", ease: Power1.easeOut}, 'frame1+=0.5')
 
 
   .addLabel('frame2', 'frame1+=4')
