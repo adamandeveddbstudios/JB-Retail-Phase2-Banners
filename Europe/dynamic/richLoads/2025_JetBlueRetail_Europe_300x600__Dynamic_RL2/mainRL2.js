@@ -78,8 +78,8 @@ function setupContent() {
     // TESTING
 
     //  Longest possible places names
-    origin_formatted = 'Providence'
-    destination_formatted = 'Palm Beach'
+    // origin_formatted = 'Providence'
+    // destination_formatted = 'Palm Beach'
 
     //  Longest possible places names
     // origin_formatted = 'Providenciales, Turks and Caicos (PLS)'

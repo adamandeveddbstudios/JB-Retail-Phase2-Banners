@@ -12,7 +12,7 @@ var tl;
 
 //@FT VARIABLE DECLARATIONS
 var deploy = true,
-    showDefault=false,
+    showDefault= false,
     thisFeedLoaded=false,
     ctURL = "",
     defaultPrice = "69",
@@ -51,7 +51,6 @@ function checkURL(u){
     return false
   }
 }
-
 
 function setupContent() {
 
@@ -99,14 +98,14 @@ function setupContent() {
       h4[0].classList.add('defaultEndframe')
       // reposition CTA
       cta[0].style.marginLeft = 0
-      cta[0].style.marginTop = "14px"
+      cta[0].style.marginTop = "-12px"
       terms[0].innerHTML = '' // Populate Terms
 
       // Turn off Price holder etc.
       price[0].style.display = 'none';
       startingAt[0].style.display = 'none';
     } else {
-      h4[0].innerHTML = "Fly from<br><span class='city'>" + origin_formatted + "</span> <span class='to'>to</span><br><span class='city'>" + destination_formatted + "</span>"; // - Populates main headline
+      h4[0].innerHTML = "Fly from<br><span class='city'>" + origin_formatted + "</span><br><span class='to'>to</span> <span class='city'>" + destination_formatted + "</span>"; // - Populates main headline
 
       // dynamic resize
       const myCity = document.getElementsByClassName('city')
@@ -118,14 +117,14 @@ function setupContent() {
 
       if (myCityCharLength > 22) {
       } else if (myCityCharLength > 14) {
-        myCity[0].style.fontSize = "25px"
-        myCity[1].style.fontSize = "25px"
-      } else if (myCityCharLength > 10) {
         myCity[0].style.fontSize = "17px"
         myCity[1].style.fontSize = "17px"
+      } else if (myCityCharLength > 10) {
+        myCity[0].style.fontSize = "14px"
+        myCity[1].style.fontSize = "14px"
       } else {
-        myCity[0].style.fontSize = "32px"
-        myCity[1].style.fontSize = "32px"
+        myCity[0].style.fontSize = "24px"
+        myCity[1].style.fontSize = "24px"
       }
 
     }
@@ -151,6 +150,7 @@ function setupContent() {
   myFT.dispatch('RL2_ready_to_play');
 
 }
+
 //@FT Listener function for the custom dispatched event "theFeedLoaded")" (from base file)
 // 'theFeedLoaded' contains the feed data
 myFT.on('theFeedLoaded', function(e) {
@@ -178,7 +178,7 @@ function feedLoaded(feed){
         //If no feed available, show default content
         showDefault = true;
     }
-    setupContent();
+    setupContent(feed);
   }
 }
 
@@ -209,6 +209,7 @@ function animate() {
   .addLabel('frame_4')
   // .from(['#main_content'], .6, { y:"+=250", ease: Back.easeOut.config(.3)})
   .staggerTo(['#h4', '#priceHolder', '#cta', '#terms', '#terms_container'], 0.5, { autoAlpha: 1, ease: Power1.easeInOut }, 0.3, 'frame_4')
+
 }
 
 
